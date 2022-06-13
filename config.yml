@@ -1,0 +1,10 @@
+baseURL: 'http://hnjae.github.io/'
+languageCode: 'ko-KR'
+title: 'My New Hugo Site'
+theme: "anubis"
+
+params:
+  author: "Hyunjae Kim"
+  email: "test@test.org"
+  dateFormat: "2006-01-02 15:04:05 MST"
+  style: auto
