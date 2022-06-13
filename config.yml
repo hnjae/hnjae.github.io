@@ -1,5 +1,9 @@
 baseURL: 'https://hnjae.github.io/'
 languageCode: 'ko-KR'
+defaultContentLanguage: 'ko'
+defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
+rssLimit: '1000'
 title: 'Hugo Site Test'
 theme: "anubis"
 
