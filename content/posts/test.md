@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-* [aaa](a)
+* [aaa](./a)
 
 blabla
 h1 test
