@@ -85,7 +85,7 @@ h1 test
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> __init__(self):
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pass&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>LaTex: $3x = 2^2$&lt;/p></description></item><item><title>test</title><link>https://hnjae.github.io/posts/test/</link><pubDate>Tue, 13 Dec 1938 18:50:20 -0100</pubDate><guid>https://hnjae.github.io/posts/test/</guid><description>&lt;ul>
-&lt;li>&lt;a href="a">aaa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./a">aaa&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="h1-test" >blabla
 h1 test
