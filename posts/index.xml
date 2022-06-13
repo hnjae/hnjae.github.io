@@ -39,7 +39,7 @@
 &lt;/li>
 &lt;li>b&lt;/li>
 &lt;li>c&lt;/li>
-&lt;/ul></description></item><item><title>test</title><link>https://hnjae.github.io/posts/test/</link><pubDate>Mon, 13 Jun 2022 20:00:16 +0900</pubDate><guid>https://hnjae.github.io/posts/test/</guid><description>&lt;h1 id="h1-test" >blabla
+&lt;/ul></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
 h1 test
 &lt;span>
 &lt;a href="#h1-test">
@@ -84,7 +84,10 @@ h1 test
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Test&lt;/span>():
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> __init__(self):
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pass&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>LaTex: $3x = 2^2$&lt;/p></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>LaTex: $3x = 2^2$&lt;/p></description></item><item><title>test</title><link>https://hnjae.github.io/posts/test/</link><pubDate>Tue, 13 Dec 1938 18:50:20 -0100</pubDate><guid>https://hnjae.github.io/posts/test/</guid><description>&lt;ul>
+&lt;li>&lt;a href="a">aaa&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="h1-test" >blabla
 h1 test
 &lt;span>
 &lt;a href="#h1-test">
