@@ -2,7 +2,7 @@
 title: "test"
 date : 2022-06-13 20:00:16 +09:00
 draft: false
-...
+---
 
 
 blabla
