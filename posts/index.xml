@@ -39,7 +39,7 @@
 &lt;/li>
 &lt;li>b&lt;/li>
 &lt;li>c&lt;/li>
-&lt;/ul></description></item><item><title>Example Org File</title><link>https://hnjae.github.io/posts/org-test/</link><pubDate>Fri, 13 Dec 2019 13:20:20 -0100</pubDate><guid>https://hnjae.github.io/posts/org-test/</guid><description>
+&lt;/ul></description></item><item><title>Linked Org</title><link>https://hnjae.github.io/posts/link/</link><pubDate>Sat, 13 Feb 2021 13:20:20 -0100</pubDate><guid>https://hnjae.github.io/posts/link/</guid><description>
 &lt;p>
 Outlining
 Headings and folding make structured editing a breeze. Plain text makes it easy to sync and version control Org files.&lt;/p>
@@ -51,7 +51,66 @@ Revamp orgmode.org website
 &lt;p>
 The &lt;em>beauty&lt;/em> of org &lt;strong>must&lt;/strong> be shared.&lt;/p>
 &lt;p>
-&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" alt="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" title="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" />&lt;/p>
+&lt;a href="org-test.html">org-test.html&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
+h1 test
+&lt;span>
+&lt;a href="#h1-test">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;h1 id="h1-test2" >h1 test2
+&lt;span>
+&lt;a href="#h1-test2">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;h2 id="h2-test1" >h2 test1
+&lt;span>
+&lt;a href="#h2-test1">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h2 id="h2-test" >h2 test
+&lt;span>
+&lt;a href="#h2-test">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="h3-test" >h3 test
+&lt;span>
+&lt;a href="#h3-test">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;ul>
+&lt;li>a
+&lt;ol>
+&lt;li>a&lt;/li>
+&lt;li>b&lt;/li>
+&lt;li>c&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>b&lt;/li>
+&lt;li>c&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Test&lt;/span>():
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> __init__(self):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pass&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>LaTex: $3x = 2^2$&lt;/p></description></item><item><title>Example Org File</title><link>https://hnjae.github.io/posts/org-test/</link><pubDate>Sun, 13 Feb 2011 13:20:20 -0100</pubDate><guid>https://hnjae.github.io/posts/org-test/</guid><description>
+&lt;p>
+Outlining
+Headings and folding make structured editing a breeze. Plain text makes it easy to sync and version control Org files.&lt;/p>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+Revamp orgmode.org website
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>
+The &lt;em>beauty&lt;/em> of org &lt;strong>must&lt;/strong> be shared.&lt;/p>
+&lt;p>
+&lt;a href="link.html">link.html&lt;/a>&lt;/p>
 &lt;div id="outline-container-headline-2" class="outline-3">
 &lt;h3 id="headline-2">
 &lt;span class="todo">DONE&lt;/span>
@@ -139,52 +198,7 @@ Check CSS minification ratios
 &lt;/tbody>
 &lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
-h1 test
-&lt;span>
-&lt;a href="#h1-test">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h1>&lt;h1 id="h1-test2" >h1 test2
-&lt;span>
-&lt;a href="#h1-test2">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h1>&lt;h2 id="h2-test1" >h2 test1
-&lt;span>
-&lt;a href="#h2-test1">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;h2 id="h2-test" >h2 test
-&lt;span>
-&lt;a href="#h2-test">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;h3 id="h3-test" >h3 test
-&lt;span>
-&lt;a href="#h3-test">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;ul>
-&lt;li>a
-&lt;ol>
-&lt;li>a&lt;/li>
-&lt;li>b&lt;/li>
-&lt;li>c&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>b&lt;/li>
-&lt;li>c&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Test&lt;/span>():
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> __init__(self):
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">pass&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>LaTex: $3x = 2^2$&lt;/p></description></item><item><title>test</title><link>https://hnjae.github.io/posts/test/</link><pubDate>Tue, 13 Dec 1938 18:50:20 -0100</pubDate><guid>https://hnjae.github.io/posts/test/</guid><description>&lt;ul>
+&lt;/div></description></item><item><title>test</title><link>https://hnjae.github.io/posts/test/</link><pubDate>Tue, 13 Dec 1938 18:50:20 -0100</pubDate><guid>https://hnjae.github.io/posts/test/</guid><description>&lt;ul>
 &lt;li>&lt;a href="./a">aaa&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="h1-test" >blabla
