@@ -10,7 +10,8 @@ theme: "anubis"
 params:
   author: "Hyunjae Kim"
   email: "test@test.org"
-  dateFormat: "2006-01-02"
+  # 2006-01-02 15:04:05 -0700
+  dateFormat: "2006-01-02 15:04:05 GMT-0700 (MST)"
   rssAsSocialIcon: true
   style: auto-without-switcher
   social:
