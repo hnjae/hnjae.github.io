@@ -1,6 +1,6 @@
 #+title:  Example Org File
 #+author: HJ
-#+date: 2019-12-13T13:20:20-01:00
+#+date: 2011-02-13T13:20:20-01:00
 #+lastmod: 2020-12-13T18:20:19-01:00
 
 Outlining
@@ -10,7 +10,10 @@ Headings and folding make structured editing a breeze. Plain text makes it easy 
 
 The /beauty/ of org *must* be shared.
 
-[[https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg]]
+[[file:link.org]]
+
+
+# [[https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg]]
 
 ** DONE Make screenshots
 
