@@ -39,7 +39,107 @@
 &lt;/li>
 &lt;li>b&lt;/li>
 &lt;li>c&lt;/li>
-&lt;/ul></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
+&lt;/ul></description></item><item><title>Example Org File</title><link>https://hnjae.github.io/posts/org-test/</link><pubDate>Fri, 13 Dec 2019 13:20:20 -0100</pubDate><guid>https://hnjae.github.io/posts/org-test/</guid><description>
+&lt;p>
+Outlining
+Headings and folding make structured editing a breeze. Plain text makes it easy to sync and version control Org files.&lt;/p>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+Revamp orgmode.org website
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>
+The &lt;em>beauty&lt;/em> of org &lt;strong>must&lt;/strong> be shared.&lt;/p>
+&lt;p>
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" alt="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" title="https://upload.wikimedia.org/wikipedia/commons/b/bd/Share_Icon.svg" />&lt;/p>
+&lt;div id="outline-container-headline-2" class="outline-3">
+&lt;h3 id="headline-2">
+&lt;span class="todo">DONE&lt;/span>
+Make screenshots
+&lt;/h3>
+&lt;div id="outline-text-headline-2" class="outline-text-3">
+&lt;p>
+CLOSED: [2020-09-03 Thu 18:24]&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-3">
+&lt;h3 id="headline-3">
+&lt;span class="todo">DONE&lt;/span>
+Restyle Site CSS
+&lt;/h3>
+&lt;div id="outline-text-headline-3" class="outline-text-3">
+&lt;p>
+Go through &lt;a href="style.scss">stylesheet&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-4" class="outline-3">
+&lt;h3 id="headline-4">
+&lt;span class="todo">TODO&lt;/span>
+Check CSS on main pages
+&lt;/h3>
+&lt;div id="outline-text-headline-4" class="outline-text-3">
+&lt;p>
+Prose&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-5" class="outline-2">
+&lt;h2 id="headline-5">
+Learn Org
+&lt;/h2>
+&lt;div id="outline-text-headline-5" class="outline-text-2">
+&lt;p>
+Org makes easy things trivial and complex things practical.&lt;/p>
+&lt;p>
+You don&amp;#39;t need to learn Org before using Org: read the quickstart
+page and you should be good to go. If you need more, Org will be
+here for you as well: dive into the manual and join the community!&lt;/p>
+&lt;div id="outline-container-headline-6" class="outline-3">
+&lt;h3 id="headline-6">
+Feedback
+&lt;/h3>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-7" class="outline-2">
+&lt;h2 id="headline-7">
+Check CSS minification ratios
+&lt;/h2>
+&lt;div id="outline-text-headline-7" class="outline-text-2">
+&lt;div class="src src-python">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> pathlib &lt;span style="color:#f92672">import&lt;/span> Path
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cssRatios &lt;span style="color:#f92672">=&lt;/span> []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> css_min &lt;span style="color:#f92672">in&lt;/span> Path(&lt;span style="color:#e6db74">&amp;#34;resources/style&amp;#34;&lt;/span>)&lt;span style="color:#f92672">.&lt;/span>glob(&lt;span style="color:#e6db74">&amp;#34;*.min.css&amp;#34;&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> css &lt;span style="color:#f92672">=&lt;/span> css_min&lt;span style="color:#f92672">.&lt;/span>with_suffix(&lt;span style="color:#e6db74">&amp;#39;&amp;#39;&lt;/span>)&lt;span style="color:#f92672">.&lt;/span>with_suffix(&lt;span style="color:#e6db74">&amp;#39;.css&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cssRatios&lt;span style="color:#f92672">.&lt;/span>append([css&lt;span style="color:#f92672">.&lt;/span>name,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">{:.0f}&lt;/span>&lt;span style="color:#e6db74">% minified (&lt;/span>&lt;span style="color:#e6db74">{:4.1f}&lt;/span>&lt;span style="color:#e6db74"> KiB)&amp;#34;&lt;/span>&lt;span style="color:#f92672">.&lt;/span>format( &lt;span style="color:#ae81ff">100&lt;/span> &lt;span style="color:#f92672">*&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> css_min&lt;span style="color:#f92672">.&lt;/span>stat()&lt;span style="color:#f92672">.&lt;/span>st_size &lt;span style="color:#f92672">/&lt;/span> css&lt;span style="color:#f92672">.&lt;/span>stat()&lt;span style="color:#f92672">.&lt;/span>st_size,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> css_min&lt;span style="color:#f92672">.&lt;/span>stat()&lt;span style="color:#f92672">.&lt;/span>st_size &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#ae81ff">1000&lt;/span>)])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">return&lt;/span> cssRatios&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;table>
+&lt;tbody>
+&lt;tr>
+&lt;td>index.css&lt;/td>
+&lt;td>76% minified ( 1.4 KiB)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>org-demo.css&lt;/td>
+&lt;td>77% minified ( 2.8 KiB)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>errors.css&lt;/td>
+&lt;td>74% minified ( 4.9 KiB)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>org.css&lt;/td>
+&lt;td>75% minified (10.7 KiB)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>test3</title><link>https://hnjae.github.io/posts/a/</link><pubDate>Thu, 13 Jun 2019 20:00:16 +0800</pubDate><guid>https://hnjae.github.io/posts/a/</guid><description>&lt;h1 id="h1-test" >test3 blabla
 h1 test
 &lt;span>
 &lt;a href="#h1-test">
