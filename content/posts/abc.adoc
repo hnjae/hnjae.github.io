@@ -1,0 +1,12 @@
+---
+title   : abc
+date    : 2022-08-15T20:36:34+0900
+lastmod : 2022-08-15T20:36:38+0900
+isCJKLanguage : true
+draft   : true
+---
+
+= abc
+:toc:
+
+xref:rstrst.adoc[rstrst]
