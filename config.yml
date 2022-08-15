@@ -4,8 +4,8 @@ defaultContentLanguage: 'ko'
 defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 rssLimit: '1000'
-title: 'hnjae'
-theme: "ananke"
+title: "hnjae's blog"
+theme: "anubis"
 publishDir: "docs"
 
 params:
