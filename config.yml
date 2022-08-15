@@ -6,6 +6,7 @@ hasCJKLanguage: true
 rssLimit: '1000'
 title: 'Hugo Site Test'
 theme: "ananke"
+publishDir: "docs"
 
 params:
   author: "Hyunjae Kim"
