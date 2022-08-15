@@ -1,3 +1,0 @@
-
-
-xref:testrtrst.adoc[testrtrst]

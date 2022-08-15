@@ -117,7 +117,7 @@ end
 ----
 
 
-===== rstrst
+==== rstrst
 :url-home: https://asciidoctor.org
 :link-docs: https://asciidoctor.org/docs[documentation]
 :summary: AsciiDoc is a mature, plain-text document format for \

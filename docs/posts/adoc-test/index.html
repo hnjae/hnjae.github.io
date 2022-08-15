@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+
+<html lang="ko-KR" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>adoc-test - hnjae&#39;s blog</title>
+
+<meta name="description" content="Refer to B doc for more information. = Document Title :toc:
+Paragraphs don’t require special markup in AsciiDoc. A paragraph is defined by one or more consecutive lines of text. Line breaks within a paragraph are not displayed.
+Leave at least one empty line to begin a new paragraph.
+This text will be styled as a lead paragraph (i.e., larger font).
+This paragraph will not be.
+It has strong significance to me.">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://hnjae.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://hnjae.github.io/favicon.png">
+
+
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="https://hnjae.github.io/css/style.min.8b6516b56bc46ed8621ff4302922cad70856a91a9ea3c199b91d5067b60213d1.css" integrity="sha256-i2UWtWvEbthiH/QwKSLK1whWqRqeo8GZuR1QZ7YCE9E=">
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="https://hnjae.github.io/js/script.min.74bf1a3fcf1af396efa4acf3e660e876b61a2153ab9cbe1893ac24ea6d4f94ee.js" type="text/javascript" charset="utf-8" integrity="sha256-dL8aP88a85bvpKzz5mDodrYaIVOrnL4Yk6wk6m1PlO4="></script>
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="adoc-test" />
+<meta property="og:description" content="Refer to B doc for more information. = Document Title :toc:
+Paragraphs don’t require special markup in AsciiDoc. A paragraph is defined by one or more consecutive lines of text. Line breaks within a paragraph are not displayed.
+Leave at least one empty line to begin a new paragraph.
+This text will be styled as a lead paragraph (i.e., larger font).
+This paragraph will not be.
+It has strong significance to me." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hnjae.github.io/posts/adoc-test/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-13T20:00:16+08:00" />
+<meta property="article:modified_time" content="2022-06-13T20:00:16+08:00" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="adoc-test"/>
+<meta name="twitter:description" content="Refer to B doc for more information. = Document Title :toc:
+Paragraphs don’t require special markup in AsciiDoc. A paragraph is defined by one or more consecutive lines of text. Line breaks within a paragraph are not displayed.
+Leave at least one empty line to begin a new paragraph.
+This text will be styled as a lead paragraph (i.e., larger font).
+This paragraph will not be.
+It has strong significance to me."/>
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main"></a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <div class="header-top">
+    <h1 class="site-title">
+    <a href="/">hnjae&#39;s blog</a>
+</h1>
+    <ul class="social-icons">
+
+
+    
+        
+        
+        <li>
+            <a href="https://github.com/hnjae" title="Github" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+    <li>
+            <a href="https://hnjae.github.io/index.xml" title="RSS" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+</div>
+
+    <nav></nav>
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">adoc-test</h1>
+
+                
+            </header>
+        </div>
+        <div class="content e-content">
+            <div class="paragraph">
+<p>Refer to <a href="document-b.html">B doc</a> for more information.
+= Document Title
+:toc:</p>
+</div>
+<div class="paragraph">
+<p>Paragraphs don’t require special markup in AsciiDoc.
+A paragraph is defined by one or more consecutive lines of text.
+Line breaks within a paragraph are not displayed.</p>
+</div>
+<div class="paragraph">
+<p>Leave at least one empty line to begin a new paragraph.</p>
+</div>
+<div class="paragraph lead">
+<p>This text will be styled as a lead paragraph (i.e., larger font).</p>
+</div>
+<div class="paragraph">
+<p>This paragraph will not be.</p>
+</div>
+<div class="paragraph">
+<p>It has <strong>strong</strong> significance to me.</p>
+</div>
+<div class="paragraph">
+<p>I <em>cannot</em> stress this enough.</p>
+</div>
+<div class="paragraph">
+<p>Type <code>OK</code> to accept.</p>
+</div>
+<div class="paragraph">
+<p>That <strong><em>really</em></strong> has to go.</p>
+</div>
+<div class="paragraph">
+<p>Can’t pick one? Let’s use them <code><strong><em>all</em></strong></code>.</p>
+</div>
+<div class="paragraph">
+<p><sup>super</sup>script phrase</p>
+</div>
+<div class="paragraph">
+<p><sub>sub</sub>script phrase</p>
+</div>
+<div class="paragraph">
+<p>“double curved quotes”</p>
+</div>
+<div class="paragraph">
+<p>‘single curved quotes’</p>
+</div>
+<div class="paragraph">
+<p>Olaf’s desk was a mess.</p>
+</div>
+<div class="paragraph">
+<p>A <code>std::vector</code>’s size is the number of items it contains.</p>
+</div>
+<div class="paragraph">
+<p>All of the werewolves’ desks were a mess.</p>
+</div>
+<div class="paragraph">
+<p>Olaf had been with the company since the ’00s.</p>
+</div>
+<div class="sect1">
+<h2 id="_link">Link</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://asciidoctor.org" class="bare">https://asciidoctor.org</a> - automatic!</p>
+</div>
+<div class="paragraph">
+<p><a href="https://asciidoctor.org">Asciidoctor</a></p>
+</div>
+<div class="paragraph">
+<p><a href="mailto:devel@discuss.example.org">devel@discuss.example.org</a></p>
+</div>
+<div class="paragraph">
+<p><a href="mailto:devel@discuss.example.org">Discuss</a></p>
+</div>
+<div class="paragraph">
+<p><a href="mailto:join@discuss.example.org?subject=Subscribe+me&amp;body=I+want+to+join%21">Subscribe</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://discuss.asciidoctor.org" class="external" target="_blank" rel="noopener">Discuss Asciidoctor</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://discuss.asciidoctor.org" target="_blank" rel="noopener">Discuss Asciidoctor</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://example.org/?q=[a b]">URL with special characters</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://example.org/?q=%5Ba%20b%5D">URL with special characters</a></p>
+</div>
+<div class="paragraph">
+<p><a href="index.html">Docs</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_reference">reference</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>e.g.15)
+<a id="bookmark-a"></a>Inline anchors make arbitrary content referenceable.</p>
+</div>
+<div class="paragraph">
+<p><span id="bookmark-b">Inline anchors can be applied to a phrase like this one.</span></p>
+</div>
+<div class="paragraph">
+<p><a id="bookmark-c"></a>Use a cross reference to link to this location.</p>
+</div>
+<div class="paragraph">
+<p><a id="bookmark-d"></a>The xreflabel attribute will be used as link text in the cross-reference link.</p>
+</div>
+<div class="paragraph">
+<p>e.g.16)
+See <a href="#paragraphs">[paragraphs]</a> to learn how to write paragraphs.</p>
+</div>
+<div class="paragraph">
+<p>Learn how to organize the document into <a href="#section-titles">sections</a>.</p>
+</div>
+<div class="paragraph">
+<p>e.g.17)
+Refer to <a href="document-b.html#section-b">Section B of Document B</a> for more information.</p>
+</div>
+<div class="paragraph">
+<p>If you never return from <a href="document-b.html">Document B</a>, we’ll send help.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_list">list</h2>
+<div class="sectionbody">
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>blabla</p>
+<div class="ulist">
+<ul>
+<li>
+<p>blabla</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>❏ blabla</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">abc</dt>
+<dd>
+<p>alphabet</p>
+</dd>
+<dt class="hdlist1">cde</dt>
+<dd>
+<p>alphabet2</p>
+</dd>
+</dl>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_arst">arst</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_arstsrat">arstsrat</h3>
+<div class="literalblock">
+<div class="content">
+<pre>error: 1954 Forbidden search
+absolutely fatal: operation lost in the dodecahedron of doom
+
+Would you like to try again? y/n</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Some Ruby code</div>
+<div class="content">
+<pre class="highlight"><code class="language-ruby" data-lang="ruby">require &#39;sinatra&#39;
+
+get &#39;/hi&#39; do
+  &#34;Hello World!&#34;
+end</code></pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rstrst">rstrst</h4>
+<div class="paragraph">
+<p>Check out <a href="https://asciidoctor.org">Asciidoctor</a>!</p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc is a mature, plain-text document format for writing notes, articles, documentation, books, and more. It’s also a text processor &amp; toolchain for translating documents into various output formats (i.e., backends), including HTML, DocBook, PDF and ePub.</p>
+</div>
+<div class="paragraph">
+<p>Be sure to read the <a href="https://asciidoctor.org/docs">documentation</a> too!</p>
+</div>
+<div class="paragraph">
+<p>[✔] That’s done!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date dt-published">2022-06-13 20:00:16 GMT&#43;0800 (&#43;0800)</div>
+    
+
+    <a class="post-hidden-url u-url" href="https://hnjae.github.io/posts/adoc-test/">https://hnjae.github.io/posts/adoc-test/</a>
+    <a href="https://hnjae.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">Hyunjae Kim</a>
+
+
+    <div class="post-taxonomies">
+        
+            
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+
+    
+        
+
+
+
+
+
+
+
+    
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Hyunjae Kim, 2022<br>
+             <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>,  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
+            
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+
+
+<script>
+const STORAGE_KEY = 'user-color-scheme'
+const defaultTheme = "auto-without-switcher"
+
+let currentTheme
+let switchButton
+let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+const autoChangeScheme = e => {
+    currentTheme = e.matches ? 'dark' : 'light'
+    document.documentElement.setAttribute('data-theme', currentTheme)
+    changeButtonText()
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    switchButton = document.querySelector('.theme-switcher')
+    currentTheme = detectCurrentScheme()
+    if (currentTheme == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark')
+    }
+    if (currentTheme == 'auto') {
+        autoChangeScheme(autoDefinedScheme);
+        autoDefinedScheme.addListener(autoChangeScheme);
+    }
+
+    if (switchButton) {
+        changeButtonText()
+        switchButton.addEventListener('click', switchTheme, false)
+    }
+  
+    showContent()
+})
+
+function detectCurrentScheme() {
+    if (localStorage.getItem(STORAGE_KEY)) {
+        return localStorage.getItem(STORAGE_KEY)
+    } 
+    if (defaultTheme) {
+        return defaultTheme
+    } 
+    if (!window.matchMedia) {
+        return 'light'
+    } 
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark'
+    }
+    return 'light'
+}
+
+function changeButtonText()
+{   
+    if (switchButton) {
+        switchButton.textContent = currentTheme == 'dark' ?  "" : ""
+    }
+}
+
+function switchTheme(e) {
+    if (currentTheme == 'dark') {
+        localStorage.setItem(STORAGE_KEY, 'light')
+        document.documentElement.setAttribute('data-theme', 'light')
+        currentTheme = 'light'
+    } else {
+        localStorage.setItem(STORAGE_KEY, 'dark')
+        document.documentElement.setAttribute('data-theme', 'dark')
+        currentTheme = 'dark'
+    }
+    changeButtonText()
+}
+
+function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+}
+</script>   
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://hnjae.github.io/ class="p-name u-url url fn" rel="me">Hyunjae Kim</a> 
+
+     
+        /
+        <a class="p-email u-email email" rel="me" href="mailto:test@test.org">test@test.org</a>
+    
+
+    
+</p> 
+</footer>
+
+        
+    </div>
+</body>
+</html>
