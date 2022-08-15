@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 rssLimit: '1000'
 title: 'Hugo Site Test'
-theme: "anubis"
+theme: "ananke"
 
 params:
   author: "Hyunjae Kim"
@@ -17,3 +17,8 @@ params:
   social:
     - id: github
       name: hnjae
+
+security:
+  exec:
+    allow:
+      - asciidoctor

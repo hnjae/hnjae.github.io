@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-* [aaa](./a)
+* [aaa]({{< relref a>}})
 
 blabla
 h1 test
