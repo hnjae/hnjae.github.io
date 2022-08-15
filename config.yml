@@ -6,7 +6,6 @@ hasCJKLanguage: true
 rssLimit: '1000'
 title: "hnjae's blog"
 theme: "anubis"
-publishDir: "docs"
 
 params:
   author: "Hyunjae Kim"

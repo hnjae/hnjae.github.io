@@ -1,0 +1,12 @@
+---
+title   : draft
+date    : 2022-08-15T20:34:11+0900
+lastmod : 2022-08-15T20:35:13+0900
+isCJKLanguage : true
+draft   : true
+---
+
+= Hi I'm draft
+:toc:
+
+New post using asciidoctor, Github Pages, Hugo
