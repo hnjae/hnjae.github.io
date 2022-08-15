@@ -6,6 +6,7 @@ hasCJKLanguage: true
 rssLimit: '1000'
 title: "hnjae's blog"
 theme: "anubis"
+uglyurls: true
 
 params:
   author: "Hyunjae Kim"
