@@ -16,12 +16,6 @@ Line breaks within a paragraph are not displayed.
 
 Leave at least one empty line to begin a new paragraph.
 
-Roses are red, +
-violets are blue.
-
-[%hardbreaks]
-A ruby is red.
-Java is black.
 
 [.lead]
 This text will be styled as a lead paragraph (i.e., larger font).
@@ -123,26 +117,6 @@ get '/hi' do
   "Hello World!"
 end
 ----
-
-=== table
-.Applications
-[cols="1,1,2"]
-|===
-|Name |Category |Description
-
-|Firefox
-|Browser
-|Mozilla Firefox is an open source web browser.
-It's designed for standards compliance,
-performance, portability.
-
-'''
-
-|Arquillian
-|Testing
-|An innovative and highly extensible testing platform.
-Empowers developers to easily create real, automated tests.
-|===
 
 
 ===== rstrst
