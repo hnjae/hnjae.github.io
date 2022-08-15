@@ -4,7 +4,7 @@ defaultContentLanguage: 'ko'
 defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 rssLimit: '1000'
-title: 'Hugo Site Test'
+title: 'hnjae'
 theme: "ananke"
 publishDir: "docs"
 

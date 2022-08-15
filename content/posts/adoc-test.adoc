@@ -6,8 +6,6 @@ draft: false
 
 Refer to xref:document-b.adoc[B doc] for more information.
 = Document Title
-Test J <test@test.org>
-v1.0 2022-06-13
 :toc:
 
 Paragraphs don't require special markup in AsciiDoc.
