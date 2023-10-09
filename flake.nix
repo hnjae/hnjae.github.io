@@ -1,7 +1,7 @@
 {
   description = "devshell";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
   outputs = {  nixpkgs, flake-utils, ... }:
