@@ -1,0 +1,101 @@
+---
+title   : test3
+date    : 2023-10-09T17:49:28+0900
+lastmod : 2023-10-09T20:35:38+0900
+isCJKLanguage : true
+draft   : false
+---
+:toc:
+:stem: latexmath
+:source-highlighter: highlightjs
+:highlightjs-languages: typescript
+
+
+== link
+
+* https://google.com[Google]
+* xref:hello-world.adoc[hello-world]
+
+== admontation
+[NOTE]
+.this is note
+====
+hello??
+====
+
+[WARNING]
+.this is warning
+====
+hello?? this is warning
+====
+
+
+== math test
+// stem:[\sqrt(4) = 2]
+
+latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+
+[asciimath]
+++++
+sqrt(4) = 2
+++++
+
+[latexmath]
+++++
+\lim_{n \to \infty}\frac{n}{\sqrt[n]{n!}} = {\large e}
+++++
+
+
+== hi
+.heloo
+[source, typescript]
+----
+const user = {
+  firstName: "Angela",
+  lastName: "Davis",
+  role: "Professor",
+}
+
+console.log(user.name) <1>
+----
+<1> hmm
+
+[NOTE]
+.hmmm
+====
+hello?
+====
+
+strt
+
+== stsrt
+i'm
+
+=== rat rrst
+
+.goat test?
+[source, goart]
+----
+      .               .                .               .--- 1          .-- 1     / 1
+     / \              |                |           .---+            .-+         +
+    /   \         .---+---.         .--+--.        |   '--- 2      |   '-- 2   / \ 2
+   +     +        |       |        |       |    ---+            ---+          +
+  / \   / \     .-+-.   .-+-.     .+.     .+.      |   .--- 3      |   .-- 3   \ / 3
+ /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
+ 1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
+----
+
+=== hi
+
+## Show me the code
+
+{{< highlight java >}}
+class Hello {
+    String hello() {
+        return "Hello"
+    }
+}
+{{< /highlight >}}
+
+====== h6?
+i'm h6!
