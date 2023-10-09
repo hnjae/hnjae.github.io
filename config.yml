@@ -4,22 +4,42 @@ defaultContentLanguage: 'ko'
 defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 rssLimit: '1000'
-title: "hnjae's blog"
-theme: "anubis"
+title: "hyunjae's blog"
+theme: "PaperMod"
 uglyurls: true
 
 params:
   author: "Hyunjae Kim"
-  email: "test@test.org"
-  # 2006-01-02 15:04:05 -0700
-  dateFormat: "2006-01-02T15:04:05-0700"
-  rssAsSocialIcon: true
-  style: auto-without-switcher
-  social:
-    - id: github
-      name: hnjae
+  DateFormat: "2006-01-02T15:04:05-0700"
+  # email: "test@test.org"
+  showtoc: true
+  tocopen: true
+  defaultTheme: auto
+  defaultThemeToggle: true
+  socialIcons:
+    - name: github
+      url: "https://github.com/hnjae"
+
+markup:
+  asciidocExt:
+    preserveTOC: false # default false
+    backend: html5
+    safeMode: unsafe
+    attributes:
+      source-highlighter:  "rouge"
+      rouge-css: "style"
+      rouge-style: "thankful_eyes"
+      stem: "latexmath"
+      icons: "font"
+    #   hide-uri-scheme: true@ # hide http(s) in link / @ means ok to override
+    # extensions:
 
 security:
   exec:
     allow:
-      - asciidoctor
+      - "^asciidoctor$"
+  # http:
+  #   methods:
+  #     - '(?i)GET|POST'
+  #   urls:
+  #     - '.*'
