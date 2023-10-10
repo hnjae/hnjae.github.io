@@ -19,7 +19,9 @@ Github Action 관련::
 ** https://github.com/ruby/setup-ruby
 
 Hugo 관련::
+** https://gohugo.io/content-management/urls
 ** https://github.com/adityatelange/hugo-PaperMod
+** https://github.com/adityatelange/hugo-PaperMod/wiki/Features
 
 === To Do
 * [ ] rouge 대신 highlight.js 사용.
@@ -27,3 +29,6 @@ Hugo 관련::
 ** https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#custom-head--footer
 * [ ] 댓글 기능
 * [ ] 검색 기능
+* [x] ``lastmod`` 읽어서 표기
+* [x] ``/posts/`` 대신 ``/wiki/`` 사용
+** [x] ``title`` 이 아니라 ``filename`` 사용
