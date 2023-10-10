@@ -4,21 +4,71 @@ defaultContentLanguage: 'ko'
 defaultContentLanguageInSubdir: false
 hasCJKLanguage: true
 rssLimit: '1000'
-title: "hyunjae's blog"
+title: "hnjae's wiki"
 theme: "PaperMod"
 uglyurls: true
 
+languages:
+  ko:
+    contentDir: content/ko
+    languageCode: ko-KR
+    languageName: 한국어
+    permalinks:
+      page:
+        wiki: /wiki/:filename/
+        blog: /blog/:year/:slug/
+      section:
+        wiki: /wiki/
+        blog: /blog/
+    weight: 1
+  # en:
+  #   contentDir: content/en
+
+
+menu:
+  main:
+    - identifier: wiki
+      name: wiki
+      url: /
+      weight: 10
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 20
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 90
+
+
+# enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    # - :git
+    # - date
+    # - publishDate
+
 params:
   author: "Hyunjae Kim"
-  DateFormat: "2006-01-02T15:04:05-0700"
-  # email: "test@test.org"
+  # DateFormat: "2006-01-02T15:04:05-0700"
+  DateFormat: "2006-01-02"
   showtoc: true
   tocopen: true
   defaultTheme: auto
   defaultThemeToggle: true
+  homeInfoParams:
+    Title: 개인 위키입니다 👋
+    # Content:
   socialIcons:
     - name: github
       url: "https://github.com/hnjae"
+  hideAuthor: true
+  cover:
+    hiddenInList: true
+  mainSections:
+    - wiki
 
 markup:
   asciidocExt:
