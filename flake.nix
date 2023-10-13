@@ -12,7 +12,6 @@
       with pkgs; {
         devShell = mkShell {
           buildInputs = [
-            asciidoctor-with-extensions
             hugo
           ];
         };

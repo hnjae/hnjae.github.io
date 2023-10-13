@@ -1,4 +1,4 @@
-name: GitHub Pages w/ Hugo & Asciidoctor
+name: GitHub Pages w/ Hugo
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -22,13 +22,6 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.2
-
-      - run: gem install asciidoctor
 
       - name: Run Hugo
         run: |
