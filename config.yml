@@ -6,7 +6,7 @@ hasCJKLanguage: true
 rssLimit: '1000'
 title: "hnjae's wiki"
 theme: "PaperMod"
-uglyurls: true
+uglyurls: false
 
 languages:
   ko:
@@ -15,10 +15,10 @@ languages:
     languageName: 한국어
     permalinks:
       page:
-        wiki: /wiki/:filename/
+        pages: /wiki/:slug/
         blog: /blog/:year/:slug/
       section:
-        wiki: /wiki/
+        wiki: /pages/
         blog: /blog/
     weight: 1
   # en:
@@ -60,36 +60,9 @@ params:
   defaultThemeToggle: true
   homeInfoParams:
     Title: 개인 위키입니다 👋
-    # Content:
   socialIcons:
     - name: github
       url: "https://github.com/hnjae"
   hideAuthor: true
   cover:
     hiddenInList: true
-  mainSections:
-    - wiki
-
-markup:
-  asciidocExt:
-    preserveTOC: false # default false
-    backend: html5
-    safeMode: unsafe
-    attributes:
-      source-highlighter:  "rouge"
-      rouge-css: "style"
-      rouge-style: "thankful_eyes"
-      stem: "latexmath"
-      icons: "font"
-    #   hide-uri-scheme: true@ # hide http(s) in link / @ means ok to override
-    # extensions:
-
-security:
-  exec:
-    allow:
-      - "^asciidoctor$"
-  # http:
-  #   methods:
-  #     - '(?i)GET|POST'
-  #   urls:
-  #     - '.*'

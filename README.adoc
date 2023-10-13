@@ -1,34 +1,9 @@
 == README
 :toc:
-:stem: latexmath
-:source-highlighter: highlightjs
-// :highlightjs-languages:
 
 블로그 로컬 실행::
   ``hugo server -D -F`` (``-D``는 draft, ``-F``는 미래시점 포스트)
 
-=== 블로그를 만드는데 참고한 문서
-Asciidoctor 관련::
-** https://www.sivalabs.in/creating-blog-using-hugo-asciidoc-netlify/
-** https://discourse.gohugo.io/t/rendering-math-formulas-using-asciidoc-and-hugo/27946/3
-** https://www.ii.com/intertwingling-asciidoc-hugo/
-
-Github Action 관련::
-** https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
-** https://github.com/peaceiris/actions-hugo
-** https://github.com/ruby/setup-ruby
-
-Hugo 관련::
-** https://gohugo.io/content-management/urls
-** https://github.com/adityatelange/hugo-PaperMod
-** https://github.com/adityatelange/hugo-PaperMod/wiki/Features
-
 === To Do
-* [ ] rouge 대신 highlight.js 사용.
-* [x] 현재 ``head.html`` 을 오버라이딩해서 Mathjax 랑 fontAwesome 로드하고 있는데, 다른 방법 없나 알아보자.
-** https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#custom-head--footer
 * [ ] 댓글 기능
 * [ ] 검색 기능
-* [x] ``lastmod`` 읽어서 표기
-* [x] ``/posts/`` 대신 ``/wiki/`` 사용
-** [x] ``title`` 이 아니라 ``filename`` 사용
