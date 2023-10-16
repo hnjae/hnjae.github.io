@@ -3,8 +3,8 @@ tags:
 - systemd
 title: systemd-unit
 categories:
-date: 2023-10-13
-lastMod: 2023-10-13
+date: 2023-10-16
+lastMod: 2023-10-16
 ---
 ## `[UNIT]` 섹션 옵션
 

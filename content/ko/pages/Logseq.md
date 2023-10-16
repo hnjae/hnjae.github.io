@@ -2,12 +2,13 @@
 title: Logseq
 tags:
 categories:
-date: 2023-10-13
-lastMod: 2023-10-13
+date: 2023-10-16
+lastMod: 2023-10-16
 ---
-![logseq-sample.webp](/assets/logseq-sample_1697191058214_0.webp)
-
 ## 개요
+
+
+![logseq-sample.webp](/assets/logseq-sample_1697191058214_0.webp)
 
 Logseq 은 오픈소스 PKM(Personal Knowledge Management) 시스템이다. markdown 만 지원하는 여타 PKM 과 다르게 org 로 파일을 작성할 수 있다.
 
@@ -59,6 +60,7 @@ X-Flatpak=com.logseq.Logseq
 
 ## 장단점
 
+
 ### 장점:
 * 러닝 커브가 정말 낮다. 대체제인 org-roam은 emacs를 사용한다는 것 부터 난이도가 있는데, 그러한 것이 없다.
 * GUI 앱이라, org-roam 보다 영상·이미지 처리 등의 유리.
@@ -77,6 +79,7 @@ v0.9.18; NixOS 23.05; fcitx5; KDE 5.27 Wayland 세션 기준
 
 ## org vs markdown
 
+
 Logseq 에서는 `org`, `markdown` 두가지 포맷을 지원하는데, `org` 포맷에는 여러 이슈가 있어 `markdown` 을 사용하는 것이 더 나아보인다.
 
 2020년 10월에 Logseq 내부에서는 `org` 와 `markdown` 이 동등하게 취급된다고 하였는데, [#](https://discuss.logseq.com/t/advantages-to-using-org-vs-markdown/49/2) 현황은 그러하지 않는 것 같다.
@@ -86,7 +89,7 @@ Logseq 에서는 `org`, `markdown` 두가지 포맷을 지원하는데, `org` �
 * Syntax 준수 이슈
   * `org` 에서는 `*` 로 heading 을 지정하는데, Logseq에서는 문서 내 프로퍼티로 헤딩을 지정한다.
     * 이 프로퍼티는 Logseq  에디터에서는 보이질 않아, 헤딩을 변경하거나 삭제하기 까다롭다.
-    * `org`의 `*`기능을 그냥 bullet list 처럼 사용하고 있어, `org` 로서 가치가 떨어진다.
+  * `org`의 `*`기능을 그냥 bullet list 처럼 사용하고 있어, `org` 로서 가치가 떨어진다.
 * 몇 플러그인이 `org` 는 지원하지 않는 듯 한 모습이 보임 e.g.) <https://github.com/sawhney17/logseq-schrodinger>
 
 ## Publish
@@ -109,47 +112,6 @@ Logseq은  작성한 문서를 publish 하는 것을 공식적으로 지원한�
 * 블록 구분을 위해서 heading 을 적극적으로 써야한다. Hugo로 배포하면 Logseq에서 보는 것 처럼 블록 인덴트가 생기지 않기 때문에)
 
 Logseq 에서 Hugo 를 고려하여 잘 작성한 문서의 예: <https://aryansawhney.com/pages/the-ultimate-guide-to-aliases-in-logseq/>
-
-## 유용한 단축키
-
-#### 기본 단축키
-
-`C-k`: Open Search box
-
-<CR>`: Open it in the middle window / `<S-CR>`: Open it in the sidebar
-
-`C-o`: Open link/tag/page
-
-`tt`: dark mode toggle
-
-`<C-CR>`: TODO 전환
-
-`<C-[/]>`: Go back/forward
-
-#### 에디팅 관련
-
-`<C-b>`: bold
-
-#### 블록 관련
-
-
-`C-DOWN/UP`: Collapse/Expand Block
-
-`to`: 모든 블록 Collapse/Expand 토글
-
-`A-S-UP/DOWN`: 블록 옮기기
-
-`A-LEFT/RIGHT`: 블록 Zoom IN/OUT (editing mode 에서)
-
-`C-p/n`: 블록 포커스 전환
-
-`C-a`: 부모 블록 선택
-
-`td`: document 모드 토글 (새 블록이 생성되지 않음)
-
-#### 윈도우 관련
-
-`C-S-n`: 새 윈도우
 
 ## 관련 링크
 * <https://discuss.logseq.com/>
