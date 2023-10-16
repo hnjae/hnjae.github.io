@@ -15,7 +15,7 @@ lastMod: 2023-10-16
 
 UI 관련
 * `browser.compactmode.show`: `true`
-  * Customize Toolbar 에서 Density 를 Compact 로 바꾸는 옵션 토글. 
+  * Customize Toolbar 에서 Density 를 Compact 로 바꾸는 옵션 토글.
 DNS 관련
 * `network.trr.mode`: `3`
   * DNS 쿼리에 TRR 만 사용하고 네이티브 설정을 사용 금지. [#](https://support.mozilla.org/si/questions/1273281)
@@ -41,6 +41,7 @@ DNS 관련
 
 테스트 환경: NixOS 23.05, KDE 5.27 Wayland 세션, Wayland 네이티브, 새 브라우저 프로파일에서 테스트
 | | Flatpak | NixOS 23.05 |
+| --- | --- | --- |
 |version | 118.02 | 118.01 |
 | Motionmark 1.2 | 1247.8 ± 4.35% | 1259.07 ± 1.76% |
 | Speedometer 2.0 | 273 ± 4.8 | 231 ± 5.2 |
