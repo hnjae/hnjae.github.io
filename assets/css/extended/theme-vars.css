@@ -1,0 +1,26 @@
+:root {
+    --main-width: 740px;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    font-size: 17.8px;
+    line-height: 1.62;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+    /* padding: 32px; */
+    padding-left: 16px;
+    padding-right: 16px;
+    /* border: 2px solid #888; */
+    /* border-radius: 128px; */
+}
+
+.post-content h4 {
+    font-size: 18px;
+}

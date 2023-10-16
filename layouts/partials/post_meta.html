@@ -1,15 +1,5 @@
 {{- $scratch := newScratch }}
 
-<!-- {{- if not .Lastmod.IsZero -}} -->
-<!-- {{- $scratch.Add "meta" (slice (printf "<span title='%s'>Updated %s\n</span>" (.Lastmod) (.Lastmod | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }} -->
-<!-- {{- else }} -->
-<!-- {{- if not .Date.IsZero -}} -->
-<!-- {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }} -->
-<!-- {{- end }} -->
-<!-- {{- end }} -->
-
-
-
 {{- if (.Param "ShowReadingTime") -}}
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
