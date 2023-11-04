@@ -6,6 +6,8 @@ categories:
 date: 2023-10-16
 lastMod: 2023-10-16
 ---
+[systemd]({{< ref "/pages/systemd" >}}) 유닛 설정 관련
+
 ## `[UNIT]` 섹션 옵션
 
 ### `Wants` vs `Requires`
@@ -28,5 +30,8 @@ lastMod: 2023-10-16
 * 다른 유닛의 active 상태에 종속시키고 싶으면 `BindsTo` 나 `After` 를
 사용할 것.
 
-## 같이 보기 
+## 같이 보기
+
+외부 링크
 * <https://www.freedesktop.org/software/systemd/man/systemd.unit.html>
+* <https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files>

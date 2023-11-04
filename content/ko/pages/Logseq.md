@@ -1,9 +1,10 @@
 ---
-title: Logseq
 tags:
+- Logseq
+title: Logseq
 categories:
 date: 2023-10-16
-lastMod: 2023-10-16
+lastMod: 2023-11-04
 ---
 ## 개요
 
@@ -18,9 +19,10 @@ Logseq 은 오픈소스 PKM(Personal Knowledge Management) 시스템이다. mark
 
 ## 설치·실행 방법
 
+
 ### 설치 방법:
 
-Arch 와 같은 롤링 릴리즈 배포판이 아니라면, flatpak 을 이용하는 것이 가장 편하고 빠른 방법 같다.
+Arch 와 같은 롤링 릴리즈 배포판이 아니라면, [flatpak]({{< ref "/pages/flatpak" >}}) 을 이용하는 것이 가장 편하고 빠른 방법 같다.
 
 ``` bash
 flatpak install com.logseq.Logseq
@@ -32,17 +34,17 @@ v0.9.18 (2023년 10월) 기준, 기본적으로 wayland 환경에서도 X 서버
 
 다음 커맨드로 wayland native 하게 실행할 수 있다.
 ``` bash
-flatpak run com.logseq.Logseq --enable-wayland-ime --ozone-platform=wayland --enable-features=UseOzonePlatform --enable-features=WaylandWindowDecorations
+flatpak run com.logseq.Logseq --enable-wayland-ime --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindowDecorations
 ```
 
 편하게 사용하기 위해 따로 desktop 파일을 작성해서 항상 위 커맨드로 실행할 수 있도록 하자.
 
-`${XDG_DATA_HOME}/application/com.logseq.Logseq.desktop` 에 다음 내용을 추가한다.
+[`${XDG_DATA_HOME}/application/com.logseq.Logseq.desktop`]([Desktop Entry]({{< ref "/pages/Desktop Entry" >}}))  에 다음 내용을 추가한다.
 
 ``` desktop
 [Desktop Entry]
 Name=Logseq Desktop
-Exec=flatpak run --file-forwarding com.logseq.Logseq @@u %U @@ --enable-features=UseOzonePlatform --ozone-platform-hint=wayland --enable-features=WaylandWindowDecorations --enable-wayland-ime
+Exec=flatpak run --file-forwarding com.logseq.Logseq --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto --enable-wayland-ime @@u %U @@
 Terminal=false
 Type=Application
 Icon=com.logseq.Logseq
@@ -55,7 +57,7 @@ Actions=Wayland;
 X-Flatpak=com.logseq.Logseq
 ```
 
-이 옵션으로 KDE 5.27 Wayland 세션, fcitx5, NixOS 23.05 환경에서 아무런
+이 옵션으로 KDE 5.27 Wayland 세션, fcitx5, [NixOS]({{< ref "/pages/NixOS" >}}) 23.05 환경에서 아무런
 문제 없이 한글 입력이 됨을 확인하였다.
 
 ## 장단점
@@ -93,6 +95,7 @@ Logseq 에서는 `org`, `markdown` 두가지 포맷을 지원하는데, `org` �
 * 몇 플러그인이 `org` 는 지원하지 않는 듯 한 모습이 보임 e.g.) <https://github.com/sawhney17/logseq-schrodinger>
 
 ## Publish
+
 
 Logseq은  작성한 문서를 publish 하는 것을 공식적으로 지원한다 [#](https://github.com/logseq/publish-spa). 이걸로 배포하면 마치 Logseq 앱을 read-only 모드로 보는 것 같은 느낌이 나는데, 내가 원하는 배포 형태가 아니다.
 
