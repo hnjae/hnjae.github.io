@@ -35,6 +35,7 @@ return result;
 
 다음과 같은 결과가 나왔다.
 |  | Node | Bun | Firefox |
+| --- | --- | --- | --- |
 | version | 18.18.2 | 1.0.7 | 119.0 |
 | 결과 | `Array.prototype.join()` 승 | `+=` 승 | 결과가 매번 다름 |
 
