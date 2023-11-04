@@ -1,11 +1,10 @@
-:root {
-    --main-width: 740px;
-}
+/* :root { */
+/*     --main-width: 720px; */
+/* } */
 body {
-	font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-    font-size: 17.8px;
-    line-height: 1.62;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    font-size: 16px;
+    /* line-height: 1.62; */
 }
 
 img {
@@ -21,6 +20,35 @@ img {
     /* border-radius: 128px; */
 }
 
-.post-content h4 {
-    font-size: 18px;
+.post-content h2 {
+    /* margin: 32px auto 24px; */
+    /* font-size: 32px; */
+    /* margin: 64px; */
+    /* margin-top: 10em; */
+    /* margin: 32px auto 20px; */
+    font-size: 24px;
+    border-bottom: 1px solid;
+    margin-top: 2em;
 }
+
+.post-content h3 {
+    /* font-size: 24px; */
+    margin-top: 1.4em;
+    font-size: 20px;
+    border-bottom: 1px dashed;
+    /* padding-bottom: 0.2em; */
+    /* padding-bottom: 0.2em; */
+}
+
+.post-content h4 {
+    /* margin-top: 1.5em; */
+    /* margin-bottom: 0.5em; */
+    border-left: 0.4em inset;
+    padding-left: 0.4em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    /* margin: auto; */
+    font-size: 17px;
+    /* display: none; */
+}
+/* nav > ul > li > ul { display: none; } */

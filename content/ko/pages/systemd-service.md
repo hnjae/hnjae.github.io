@@ -4,9 +4,9 @@ tags:
 title: systemd-service
 categories:
 date: 2023-10-16
-lastMod: 2023-10-16
+lastMod: 2023-10-17
 ---
-systemd 유닛의 `[Service]` 섹션에 들어갈 항목들
+[systemd]({{< ref "/pages/systemd" >}}) 유닛의 `[Service]` 섹션에 들어갈 항목들
 
 ### `Type=simple` 과 `Type=oneshot` 의 차이
 

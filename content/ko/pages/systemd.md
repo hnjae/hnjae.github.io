@@ -10,3 +10,6 @@ lastMod: 2023-10-16
 #### 의존 관계보기
 * `systemctl list-dependencies`
 * `systemctl status`
+
+#### Queued Jobs 보기
+`systemctl list-jobs`
