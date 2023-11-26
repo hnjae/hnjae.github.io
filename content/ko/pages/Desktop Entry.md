@@ -3,8 +3,8 @@ tags:
 - freedesktop
 title: Desktop Entry
 categories:
-date: 2023-10-18
-lastMod: 2023-10-18
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 ### 옵션
 

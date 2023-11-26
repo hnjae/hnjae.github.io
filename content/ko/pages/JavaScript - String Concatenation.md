@@ -4,8 +4,8 @@ tags:
 - JavaScript
 title: JavaScript - String Concatenation
 categories:
-date: 2023-11-04
-lastMod: 2023-11-04
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 보고 있는 책의 예시문에서, `Array.prototype.join()` 을 쓰지 않고, `+=` 을 하면서 새 문자열을 만드는 것을 보았다.
 

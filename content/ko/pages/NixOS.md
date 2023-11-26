@@ -2,8 +2,8 @@
 title: NixOS
 tags:
 categories:
-date: 2023-10-17
-lastMod: 2023-10-26
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 ### 각종 트러블슈팅 기록
 
@@ -33,7 +33,15 @@ sudo: a terminal is required to read the password; either use the -S option to r
 sudo: a password is required
 ```
 
-remote build 에서는 `nix-store` 를 `sudo` 로 실행하는데, 이때 패스워드 입력이 안되서 생기는 문제이다. 리모트 빌드를 받는 전용 계정 생성 후, `nix-store` 를 NOPASSWD 로 실행할 수 있도록 sudo 설정을 해주는 것으로 해결하였다.
+remote build 에서는 `nix-store` 를 `sudo` 로 실행하는데, 이때 패스워드 입력이 안되서 생기는 문제이다. 리모트 빌드를 받는 전용 계정(`builder` 로 명명) 생성 후, `nix-store` 를 `NOPASSWD 로 실행할 수 있도록 `sudo` 설정을 해주는 것으로 해결하였다.
+
+```nix
+security.sudo.extraConfig = ''
+      builder ALL=NOPASSWD: ${pkgs.nix}/bin/nix-store
+'';
+```
+
+그리고 보안을 위해 `passwd -l builder` 로 `builder` 로 로그인하는 것을 제한적으로 막았다.
 
 #### 참고자료
 * <https://nixos.org/manual/nix/stable/advanced-topics/distributed-builds>

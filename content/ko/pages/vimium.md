@@ -1,9 +1,11 @@
 ---
+alias:
+- vimium-c
 title: vimium
 tags:
 categories:
-date: 2023-10-18
-lastMod: 2023-10-19
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 vimium은 브라우저에 vim 바인딩을 지원하는 플러그인이다. 비슷한류의 다른 플러그인들(e.g. [tridactyl](https://github.com/tridactyl/tridactyl))와 달리 딥하지 않아, 가볍게 사용하기 좋다. 원본은 다크모드를 지원하지 않아서 변종인 [vimium-c](https://github.com/gdh1995/vimium-c)를 사용한다.
 

@@ -36,12 +36,12 @@ img {
     margin-top: 1.4em;
     font-size: 20px;
     border-bottom: 1px dashed;
-    /* padding-bottom: 0.2em; */
+    /* padding-bottom: 0.1em; */
     /* padding-bottom: 0.2em; */
 }
 
 .post-content h4 {
-    /* margin-top: 1.5em; */
+    /* margin-top: 1.5em; ?? */
     /* margin-bottom: 0.5em; */
     border-left: 0.4em inset;
     padding-left: 0.4em;

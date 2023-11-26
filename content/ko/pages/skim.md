@@ -4,8 +4,8 @@ alias:
 title: skim
 tags:
 categories:
-date: 2023-11-04
-lastMod: 2023-11-04
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 [skim](https://github.com/lotabout/skim)은 유명한 퍼지 파인더 [fzf](https://github.com/junegunn/fzf)를 rust로 구현한 프로그램이다.
 

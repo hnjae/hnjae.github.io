@@ -2,8 +2,8 @@
 title: kernel module
 tags:
 categories:
-date: 2023-10-17
-lastMod: 2023-10-17
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 ### tldr
 
