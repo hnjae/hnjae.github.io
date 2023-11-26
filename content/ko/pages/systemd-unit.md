@@ -3,8 +3,8 @@ tags:
 - systemd
 title: systemd-unit
 categories:
-date: 2023-10-16
-lastMod: 2023-10-16
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 [systemd]({{< ref "/pages/systemd" >}}) 유닛 설정 관련
 

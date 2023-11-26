@@ -3,8 +3,8 @@ tags:
 - systemd
 title: systemd-service
 categories:
-date: 2023-10-16
-lastMod: 2023-10-17
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 [systemd]({{< ref "/pages/systemd" >}}) 유닛의 `[Service]` 섹션에 들어갈 항목들
 

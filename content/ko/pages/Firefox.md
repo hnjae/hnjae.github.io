@@ -2,8 +2,8 @@
 title: Firefox
 tags:
 categories:
-date: 2023-10-16
-lastMod: 2023-10-17
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 ## 초기 설정 메모
 
@@ -11,20 +11,25 @@ lastMod: 2023-10-17
 
 ### `about:config`
 
-UI 관련
+#### UI 관련
 * `browser.compactmode.show`: `true`
-  * Customize Toolbar 에서 Density 를 Compact 로 바꾸는 옵션 토글. 
-DNS 관련
+  * Customize Toolbar 에서 Density 를 Compact 로 바꾸는 옵션 토글.
+
+#### DNS 관련
 * `network.trr.mode`: `3`
   * DNS 쿼리에 TRR 만 사용하고 네이티브 설정을 사용 금지. [#](https://support.mozilla.org/si/questions/1273281)
-캐시
+
+#### 캐시
 * [RubenKelevra 님의 설정](https://gist.github.com/RubenKelevra/fd66c2f856d703260ecdf0379c4f59db) 중 캐시 관련 설정 참고
 
 ### `about:preferences`
 
-보안 설정
+#### 보안 설정
 * DoH 프로바이더 설정.
 * Enhanced Tracking Protection 에서 DoH에서 막는 것 들은 풀기.
+
+#### `about:preferences#search`
+* 검색엔진 삭제.
 
 ### `about:addons`
 

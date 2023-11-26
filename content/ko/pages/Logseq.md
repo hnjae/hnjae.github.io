@@ -3,8 +3,8 @@ tags:
 - Logseq
 title: Logseq
 categories:
-date: 2023-10-16
-lastMod: 2023-11-04
+date: 2023-11-26
+lastMod: 2023-11-26
 ---
 ## 개요
 
@@ -57,7 +57,7 @@ Actions=Wayland;
 X-Flatpak=com.logseq.Logseq
 ```
 
-이 옵션으로 KDE 5.27 Wayland 세션, fcitx5, [NixOS]({{< ref "/pages/NixOS" >}}) 23.05 환경에서 아무런
+이 옵션으로 [KDE]({{< ref "/pages/KDE" >}}) 5.27 Wayland 세션, fcitx5, [NixOS]({{< ref "/pages/NixOS" >}}) 23.05 환경에서 아무런
 문제 없이 한글 입력이 됨을 확인하였다.
 
 ## 장단점
@@ -67,7 +67,7 @@ X-Flatpak=com.logseq.Logseq
 * 러닝 커브가 정말 낮다. 대체제인 org-roam은 emacs를 사용한다는 것 부터 난이도가 있는데, 그러한 것이 없다.
 * GUI 앱이라, org-roam 보다 영상·이미지 처리 등의 유리.
 * 유명한 서지 시스템인 zotero 랑 연동하는 것도 가능해 보임.
-* lectron 앱이지만, wayland 리눅스에서 HiDPI, 한글 입력등에서 큰 문제가 발생하지 않는다.
+* electron 앱이지만, wayland 리눅스에서 HiDPI, 한글 입력등에서 큰 문제가 발생하지 않는다.
 * VIM-Shortcut 플러그인의 IME 대응이 훌륭하다.
   * IME가 한글 입력 모드이고, VIM-Shrotcut이 Normal 모드일 때 정상적으로 작동한다. 이게 안되는 앱들이 많아 결국 VIM으로 돌아가고는 하는데, 그러한 문제가 없어서 반갑다.
   * 다만 vim 처럼 문자 단위 조작을 할 수 있지는 않다. "텍스트 블록" 단위로 조작하게 된다.
@@ -112,7 +112,7 @@ Logseq은  작성한 문서를 publish 하는 것을 공식적으로 지원한�
 * Hugo 로 배포시 인덴트 되어 보이는 모든 블록이 flat 하게 바뀜을 인지하고 문서를 작성하자.
 * 플러그인 옵션 `bulletHandling` 을 `Remove All Bullets`으로 바꾸자.
 * 위의 옵션을 껐으므로, Logseq의 블록을 Unordered list 라고 생각하면 안된다. Unordered list 는 `*` 로 블록 내에서 사용하자.
-* 블록 구분을 위해서 heading 을 적극적으로 써야한다. Hugo로 배포하면 Logseq에서 보는 것 처럼 블록 인덴트가 생기지 않기 때문에)
+* 블록 구분을 위해서 heading 을 적극적으로 써야한다. (Hugo로 배포하면 Logseq에서 보는 것 처럼 블록 인덴트가 생기지 않기 때문에)
 
 Logseq 에서 Hugo 를 고려하여 잘 작성한 문서의 예: <https://aryansawhney.com/pages/the-ultimate-guide-to-aliases-in-logseq/>
 
